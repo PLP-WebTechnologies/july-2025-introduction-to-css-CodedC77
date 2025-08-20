@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Web Page</title>
+    <meta name="description" content="A basic web page demonstrating accessibility and SEO best practices.">
+    <!-- ...existing code... -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ...existing code... -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Welcome to My  Portfolio</h1>
+            <p>My Fist Website.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p> I'm Mbanefo Igwebuike Cyril, a passionate and driven Web Developer with a love for creating and developing new things. With a strong foundation in HTML and CSS, I'm excited to share my projects, experiences, and achievements with you. I'm constantly learning and growing, and I'm thrilled to connect with like-minded individuals who share my enthusiasm for innovation and creativity."
+.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get in Touch</h2>
+            <p>Fill in  below.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">message:</label>
+                <input type="message" id="message" name="message">
+                <button>Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
+
